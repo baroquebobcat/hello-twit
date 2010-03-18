@@ -1,1 +1,0 @@
-require 'bundler_gems/jruby/1.8/environment'
