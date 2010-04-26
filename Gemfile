@@ -3,16 +3,14 @@ disable_system_gems
 disable_rubygems
 bundle_path ".gems/bundler_gems"
 
-# List gems to bundle here:
-
-
 gem "sinatra"
 gem "sinatra-twitter-oauth"
 gem "twitter_oauth"
 
-source "http://rc-gems.appspot.com"
+gem "appengine-apis", "0.0.14"
+gem "appengine-rack", "0.0.7"
 
-gem "jruby-openssl", "0.6.1"
-gem "appengine-rack"
-gem "appengine-apis"
-gem "appengine-jruby-jars", "0.0.7.pre"
+gem "jruby-rack", "0.9.7"
+gem "jruby-openssl",         "0.5.2"
+
+gem "oauth", "0.3.6"
