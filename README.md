@@ -16,13 +16,13 @@ It might be better to install them locally and then rely on bundler to do the ri
 
 For the jruby-openssl gem, that would look like
 
-  sudo gem install jruby-openssl --source http://rc-gems.appspot.com -v0.5.2
+    sudo gem install jruby-openssl --source http://rc-gems.appspot.com -v0.5.2
   
   
 You also need to supply a config file including your twitter oauth information.
 
-  :key: _your key_
-  :secret: _your secret_
-  :callback: http://_your_app_.appspot.com/auth
-  :login_template: 
-    :text: <a href="/connect">Login using Twitter</a>
+    :key: _your key_
+    :secret: _your secret_
+    :callback: http://_your_app_.appspot.com/auth
+    :login_template: 
+      :text: <a href="/connect">Login using Twitter</a>
